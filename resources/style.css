@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Rokkitt;
+    font-weight: normal;
+    
+}
+
+h1 {
+    letter-spacing: 0.05em;
+    font-weight: 250;
+    text-align: center;
+    font-size: 4em;
+}
+
+p {
+    font-size: 1.5em;
+}
+
+/* header */
+
+header h2 {
+    position: relative; 
+    width: 24em;
+    margin: 0 auto;
+    font-size: 2em;
+    text-align: center;     
+    font-weight: 200;
+    letter-spacing: -1px;
+    right: 0;
+}
+
+header {
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background-image: url("https://images.unsplash.com/photo-1433838552652-f9a46b332c40?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80");
+}
+   /* background-color: #FFFDF4; /*
+
+
+/* navigation */
+
+.navbutton {
+    width: 3em;
+    height: 3em;
+    background: rgb(209, 164, 164);
+    border-radius: 50%;
+    margin: 2em 0.5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    filter: drop-shadow(0px 4px 4px #bdbbb2);
+}
+
+.navbutton:hover {
+    filter: none;
+}
+
+.linkedin {
+    background-color: #6C90BA;
+}
+
+.linkedin img {
+    width: 80%;
+    height: 80%;
+}
+
+.github {
+    background-color: #FFFDF4;
+}
+.github img {
+    width: 110%;
+    height: 110%;
+}
+
+.cv img {
+    height: 80%;
+
+}
+nav {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+
+.aboutme {
+    height: 200vh;
+    display: flex;
+}
+
+.aboutme-title {
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3em;
+    background-color: rgb(209, 164, 164);
+    color: rgb(253, 243, 227);
+}
+
+.aboutme-pages {
+    width: 50%;
+}
+
+.aboutme-pages img {
+    max-height: 45%;
+}
+.aboutmecard {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.aboutme p {
+    width: 70%;
+}
+
+.a1 {
+background-color: rgb(20, 20, 20);
+color:blanchedalmond
+}
+
+
+.a2 {
+
+}
